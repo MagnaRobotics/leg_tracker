@@ -1,5 +1,16 @@
 Leg Tracker
 ===========
+
+Magna Usage:
+
+1. `sudo pip install scipy`
+2. `sudo pip install pykalman`
+3. `sudo pip install munkres`
+
+4. `catkin build --this`
+5. Run the `source` script
+6. After launching the project and laserscan processing nodes, do `roslaunch leg_tracker individual_leg_tracker.launch` 
+=================
 ![ROS](https://img.shields.io/badge/ROS-Kinetic-brightgreen.svg)  ![OS](https://img.shields.io/badge/OS-Ubuntu%2016.04-orange.svg ) ![OpenCV](https://img.shields.io/badge/OpenCV-3.4-blue.svg)
 
 Usage
